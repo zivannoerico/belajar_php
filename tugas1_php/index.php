@@ -15,6 +15,7 @@
         $total_gaji;
         $gaji_bersih;
         
+        
         $proyek *= bonus;
         $total_gaji = gaji + $proyek;
         $total_pajak = $total_gaji * pajak;

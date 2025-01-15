@@ -15,7 +15,7 @@
         $total_gaji;
         $gaji_bersih;
         
-        
+
         $proyek *= bonus;
         $total_gaji = gaji + $proyek;
         $total_pajak = $total_gaji * pajak;
@@ -27,7 +27,7 @@
         echo "ini bonus anda $proyek <br/>";
         echo "ini gaji anda setelah ditambah bonus $total_gaji <br/>";
         echo "pajak anda $total_pajak <br/>";
-        echo "ini gaji bersih anda $gaji_bersih";
+        echo "ini gaji bersih anda sekarang $gaji_bersih";
         
 
     ?>
